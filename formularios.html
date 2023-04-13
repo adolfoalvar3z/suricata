@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" </head>
+<style>
+    body {
+        background-image: url('https://www.xtrafondos.com/wallpapers/estructura-abstracta-3d-gris-oscuro-3593.jpg');
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+<h1 class="text-white display-1 text-center my-5">HOLA MUNDO</h1>
+        </div>
+        <div class="row">
+            <div class="col p-5">
+                <form class="border border-gray border-2 rounded p-5 bg-secondary px-5" method="post" action="#">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="correo" id="email" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clave" class="form-label">Clave</label>
+                        <input type="password" name="password" class="form-control" id="clave" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="check">
+                        <label class="form-check-label" for="check" checked>Recuerdame</label>
+<br>
+                        <input type="checkbox" class="form-check-input" id="check2">
+                        <label class="form-check-label" for="check2">Recuerdame</label>
+<hr>
+                        <input type="checkbox" class="form-check-input" id="check3">
+                        <label class="form-check-label" for="check3">Recuerdame</label>
+                    </div>
+                    <div class="d-grid gap-2">
+
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
