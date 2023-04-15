@@ -3,16 +3,15 @@
 * {
     font-family: 'Open Sans';
 }
-
 .bg-pink {
     background-color: var(--bs-pink) !important;
 }
-
 .bg-pink .logo {
     width: 132px;
     height: 53px;
 }
-footer{
-    height: 184px;
-}
 
+.bg-anuncio{
+    background-color: #17A2B8!important;
+    color: white;
+}
